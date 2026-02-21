@@ -27,7 +27,7 @@ class RuleManagerFrame(ctk.CTkFrame):
         if branch == "main":
                 return "main", "default"
         else:
-                return branch, "detection-dev"
+                return branch, "dev"
                 
     def _build_ui(self):
         container = ctk.CTkFrame(self, fg_color="transparent")
